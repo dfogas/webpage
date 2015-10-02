@@ -15,5 +15,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.11.2"
+  },
+  "engines": {
+    "node": "4.1.1",
+    "npm": "3.3.4"
   }
 }

@@ -8,7 +8,7 @@ app.get('/', function(req,res) {
 	res.render('index');
 }); //define simple route
 
-var port = 1445;
+var port = process.env.PORT || 1445;
 
 app.listen(port, function() {
 	console.log( 'express started at port: ' + port );
